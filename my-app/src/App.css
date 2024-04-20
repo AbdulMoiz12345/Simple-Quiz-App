@@ -1,0 +1,164 @@
+/* App.css */
+
+/* Styling for the main container */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  width: 550px;
+  background-color:aqua;
+  margin-left: 600px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+/* Styling for the question */
+.question {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 60px;
+  width: 400px;
+  height: 120px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: aliceblue;
+
+  /* Adding a shadow */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the options container */
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styling for each option */
+.option-item {
+  font-size: larger;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+  width: 400px;
+  margin: 10px;
+  height: 40px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.option-item:hover {
+  background-color: rgb(245, 245, 96);
+}
+
+/* Adding some space between options */
+.option-item + .option-item {
+  margin-top: 5px;
+}
+.next{
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 10px;
+  margin-top: 20px;
+}
+.checked{
+  transition: 0s;
+  background-color: yellow;
+}
+.pa{
+  font-size: xx-large;
+  font-weight: bolder;
+}
+h1{
+  font-size: 50px;
+  margin-top: 30px;
+  margin-left: 600px;
+}
+.li{
+  text-decoration: none;
+  font-size: xx-large;
+  font-weight: bolder;
+  margin: 20px;
+  width: 200px;
+}
+.enter-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-top: 100px;
+}
+
+.enter-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.question-input,
+.option-input,
+.answer-input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.answer-label {
+  margin-bottom: 5px;
+}
+
+.submit-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+.container {
+  width: 600px;
+  margin-left: 700px ;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  height: 600px;
+  margin-top: 100px;
+  border-radius: 20px;
+  color: white;
+}
+
+.l {
+  font-size: 2.5rem;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  margin-left: 0px;
+
+}
+
+.link {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.link:hover {
+  background-color: #0056b3;
+}
